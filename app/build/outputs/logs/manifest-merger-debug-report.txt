@@ -1,0 +1,571 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:1-61:12
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:2:1-29:12
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:2:1-57:12
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:2:1-14:12
+MERGED from [security-service-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\0852c1a01f57ba019339f68c633821d1\transformed\jetified-security-service-1.1-release\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Claudio\.gradle\caches\transforms-4\bc0984dd5c614f45b8fd7b8ee0e7cc12\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Claudio\.gradle\caches\transforms-4\81eea4fa199694bfd43845ce8e785045\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\feb871ef4ec63757639e6d19376b838f\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\fd17b05b72b37879b07d93325f2a4b5a\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\2b0d57da26b0cf5bd37518da76a4f138\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\7f4b4b94e4af7cfa6aa97e58215a18a6\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\339654f939c43a31fe49fdb91c203443\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Claudio\.gradle\caches\transforms-4\937958b1caecd8369a1dd1bb6ab5e8a1\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Claudio\.gradle\caches\transforms-4\c82e354f531d8162b7121fde95e8ae10\transformed\jetified-activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\981bbb35c9e564638dae634f6e47fdad\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\bd1b6f7b54b1a53e286ca9b79607c3cb\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Claudio\.gradle\caches\transforms-4\50a828f8717042b1ca2b2068a5b093e0\transformed\jetified-rxandroid-3.0.2\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Claudio\.gradle\caches\transforms-4\25acb0c5eac83a9831e7e1b7b2236343\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\5ac33e7df85f5556e9799629a134d41b\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\90e7a0cf909843026f595b52b6bab8a5\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\9d278d2795a311e42d335142e4c67838\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\469be78d6fde1c50be9d727c7ddd0687\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\5f89824c0861391791149a06893bc13b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\b169e2715863f4e2ff7e5f7b92563518\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a8cd9b29886309b0d91589bcfe122f35\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\f05b080d3c8aa9417fed328265af9457\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\1f0761854d17bcea84383bd9dd4fe6ab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a749aedb4617a54fbc10674cc234a5f7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\2f659ec74b97c1d8a036011098073b2c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\befb973c8c1fcad997f14af4f7e9fc50\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\a88443526813e414bcf9e573148af973\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\e75ebacbcbfce557e0fcda2425a0e04a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\bdf59005b1db4e9d5ca572dbd434027f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\44e1ba6d45894f183c1b8e12a0b03c97\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\8f629dab863b587548e8e0153f3ff062\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\2035c15c2a07666d27967dcb257fe7cf\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\3e8b1736bbff613235379eccc9e9d6dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\49609b5700821510ddf307744e78e3b3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\d7e6e4cff0aff235d3553f0824392f78\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\7d08cc66236cd550ca62e491721a18a5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\f576150ad151d90f1c02d45c7441caf3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\e0a02fed9d000f37bf32019d789e1b1d\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\a8d155ad5914ab58a2c243b460e693f6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\444b1f14886f035faf5c0097875a1c83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\82028fa57d00351ad153d18e317b5cea\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\50ec16ff2a95c4202f1659ef8779573e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:5:5-7:10
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:13:5-68
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:13:5-68
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:13:5-68
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:6:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:8:5-10:9
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:14:5-74
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:14:5-74
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:14:5-74
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:9:9-58
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:11:5-13:11
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:12:9-60
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:14:5-15:73
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:15:9-70
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:16:5-17:54
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:15:5-67
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:15:5-67
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:15:5-67
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:15:5-67
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:10:5-67
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:17:9-51
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:18:5-20:31
+	tools:targetApi
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:20:9-28
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:19:9-57
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:21:5-22:64
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:22:9-61
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:23:5-25:11
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:10:5-81
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:10:5-81
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:10:5-81
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:24:9-65
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:26:5-94
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:26:22-91
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:27:5-29:10
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:9:5-79
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:9:5-79
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:9:5-79
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:28:9-63
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:30:5-85
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:22:5-85
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:30:22-82
+application
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:31:5-59:19
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:31:5-59:19
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:22:5-27:19
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:22:5-27:19
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:25:5-55:19
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:25:5-55:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Claudio\.gradle\caches\transforms-4\bc0984dd5c614f45b8fd7b8ee0e7cc12\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Claudio\.gradle\caches\transforms-4\bc0984dd5c614f45b8fd7b8ee0e7cc12\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Claudio\.gradle\caches\transforms-4\81eea4fa199694bfd43845ce8e785045\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Claudio\.gradle\caches\transforms-4\81eea4fa199694bfd43845ce8e785045\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\7f4b4b94e4af7cfa6aa97e58215a18a6\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\7f4b4b94e4af7cfa6aa97e58215a18a6\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\339654f939c43a31fe49fdb91c203443\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\339654f939c43a31fe49fdb91c203443\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\f576150ad151d90f1c02d45c7441caf3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\f576150ad151d90f1c02d45c7441caf3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:36:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:34:9-54
+	android:roundIcon
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:37:9-54
+	tools:targetApi
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:40:9-29
+	android:icon
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:39:9-48
+	android:dataExtractionRules
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:33:9-65
+activity#com.example.servicelab.MainActivity
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:exported
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:43:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:48:27-74
+service#com.example.servicelab.DataExchangeService
+ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:52:9-55:56
+	android:exported
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:54:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:55:13-53
+	android:name
+		ADDED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:53:13-48
+uses-sdk
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:5:5-7:41
+MERGED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:5:5-7:41
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:5:5-7:41
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:5:5-7:41
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:6:5-8:41
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:6:5-8:41
+MERGED from [security-service-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\0852c1a01f57ba019339f68c633821d1\transformed\jetified-security-service-1.1-release\AndroidManifest.xml:5:5-7:41
+MERGED from [security-service-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\0852c1a01f57ba019339f68c633821d1\transformed\jetified-security-service-1.1-release\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Claudio\.gradle\caches\transforms-4\bc0984dd5c614f45b8fd7b8ee0e7cc12\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Claudio\.gradle\caches\transforms-4\bc0984dd5c614f45b8fd7b8ee0e7cc12\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Claudio\.gradle\caches\transforms-4\81eea4fa199694bfd43845ce8e785045\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Claudio\.gradle\caches\transforms-4\81eea4fa199694bfd43845ce8e785045\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\feb871ef4ec63757639e6d19376b838f\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\feb871ef4ec63757639e6d19376b838f\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\fd17b05b72b37879b07d93325f2a4b5a\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Claudio\.gradle\caches\transforms-4\fd17b05b72b37879b07d93325f2a4b5a\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\2b0d57da26b0cf5bd37518da76a4f138\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\2b0d57da26b0cf5bd37518da76a4f138\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\7f4b4b94e4af7cfa6aa97e58215a18a6\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\7f4b4b94e4af7cfa6aa97e58215a18a6\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\339654f939c43a31fe49fdb91c203443\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\339654f939c43a31fe49fdb91c203443\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Claudio\.gradle\caches\transforms-4\937958b1caecd8369a1dd1bb6ab5e8a1\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Claudio\.gradle\caches\transforms-4\937958b1caecd8369a1dd1bb6ab5e8a1\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Claudio\.gradle\caches\transforms-4\c82e354f531d8162b7121fde95e8ae10\transformed\jetified-activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Claudio\.gradle\caches\transforms-4\c82e354f531d8162b7121fde95e8ae10\transformed\jetified-activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\981bbb35c9e564638dae634f6e47fdad\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\981bbb35c9e564638dae634f6e47fdad\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\bd1b6f7b54b1a53e286ca9b79607c3cb\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\bd1b6f7b54b1a53e286ca9b79607c3cb\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Claudio\.gradle\caches\transforms-4\50a828f8717042b1ca2b2068a5b093e0\transformed\jetified-rxandroid-3.0.2\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\Claudio\.gradle\caches\transforms-4\50a828f8717042b1ca2b2068a5b093e0\transformed\jetified-rxandroid-3.0.2\AndroidManifest.xml:18:5-43
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Claudio\.gradle\caches\transforms-4\25acb0c5eac83a9831e7e1b7b2236343\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Claudio\.gradle\caches\transforms-4\25acb0c5eac83a9831e7e1b7b2236343\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\5ac33e7df85f5556e9799629a134d41b\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\5ac33e7df85f5556e9799629a134d41b\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\90e7a0cf909843026f595b52b6bab8a5\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\90e7a0cf909843026f595b52b6bab8a5\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\9d278d2795a311e42d335142e4c67838\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\9d278d2795a311e42d335142e4c67838\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\469be78d6fde1c50be9d727c7ddd0687\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\469be78d6fde1c50be9d727c7ddd0687\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\5f89824c0861391791149a06893bc13b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\5f89824c0861391791149a06893bc13b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\b169e2715863f4e2ff7e5f7b92563518\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\b169e2715863f4e2ff7e5f7b92563518\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a8cd9b29886309b0d91589bcfe122f35\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a8cd9b29886309b0d91589bcfe122f35\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\f05b080d3c8aa9417fed328265af9457\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\f05b080d3c8aa9417fed328265af9457\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\1f0761854d17bcea84383bd9dd4fe6ab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\1f0761854d17bcea84383bd9dd4fe6ab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a749aedb4617a54fbc10674cc234a5f7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\a749aedb4617a54fbc10674cc234a5f7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\2f659ec74b97c1d8a036011098073b2c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\2f659ec74b97c1d8a036011098073b2c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\befb973c8c1fcad997f14af4f7e9fc50\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\befb973c8c1fcad997f14af4f7e9fc50\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\a88443526813e414bcf9e573148af973\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\a88443526813e414bcf9e573148af973\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\e75ebacbcbfce557e0fcda2425a0e04a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\e75ebacbcbfce557e0fcda2425a0e04a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\bdf59005b1db4e9d5ca572dbd434027f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\bdf59005b1db4e9d5ca572dbd434027f\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\44e1ba6d45894f183c1b8e12a0b03c97\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\44e1ba6d45894f183c1b8e12a0b03c97\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\8f629dab863b587548e8e0153f3ff062\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\8f629dab863b587548e8e0153f3ff062\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\2035c15c2a07666d27967dcb257fe7cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Claudio\.gradle\caches\transforms-4\2035c15c2a07666d27967dcb257fe7cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\3e8b1736bbff613235379eccc9e9d6dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\3e8b1736bbff613235379eccc9e9d6dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\49609b5700821510ddf307744e78e3b3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\49609b5700821510ddf307744e78e3b3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\d7e6e4cff0aff235d3553f0824392f78\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\d7e6e4cff0aff235d3553f0824392f78\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\7d08cc66236cd550ca62e491721a18a5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\7d08cc66236cd550ca62e491721a18a5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\f576150ad151d90f1c02d45c7441caf3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\f576150ad151d90f1c02d45c7441caf3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\e0a02fed9d000f37bf32019d789e1b1d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Claudio\.gradle\caches\transforms-4\e0a02fed9d000f37bf32019d789e1b1d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\a8d155ad5914ab58a2c243b460e693f6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\a8d155ad5914ab58a2c243b460e693f6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\444b1f14886f035faf5c0097875a1c83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\444b1f14886f035faf5c0097875a1c83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\82028fa57d00351ad153d18e317b5cea\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Claudio\.gradle\caches\transforms-4\82028fa57d00351ad153d18e317b5cea\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\50ec16ff2a95c4202f1659ef8779573e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\50ec16ff2a95c4202f1659ef8779573e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:11:5-76
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:11:5-76
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:12:5-79
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:12:5-79
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:16:5-68
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:17:5-68
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:17:5-75
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:18:5-75
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:18:5-82
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:18:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:19:5-81
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:20:5-81
+MERGED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:20:22-76
+service#org.eclipse.paho.android.service.MqttService
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:23:9-80
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:23:18-77
+service#br.ufma.lsdi.cddl.services.QoCEvaluatorService
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:24:9-82
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:24:18-79
+service#br.ufma.lsdi.cddl.services.LocalDirectoryService
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:25:9-84
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:25:18-81
+service#br.ufma.lsdi.cddl.services.CommandService
+ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:26:9-77
+	android:name
+		ADDED from [cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:26:18-74
+uses-permission#android.permission.LOCAL_MAC_ADDRESS
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:19:5-81
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:11:5-81
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:21:22-74
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:23:5-94
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:23:22-91
+service#br.ufma.lsdi.cdal.services.S2PAService
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:26:9-74
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:26:18-71
+service#br.ufma.lsdi.cdal.services.LocationService
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:27:9-78
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:27:18-75
+service#br.ufma.lsdi.cdal.services.AdaptationService
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:28:9-80
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:28:18-77
+service#br.ufma.lsdi.cdal.s2pa.technologies.internal.sensors.activity.service.ActivityTransitionService
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:29:9-131
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:29:18-128
+service#br.ufma.lsdi.cdal.s2pa.technologies.internal.sensors.activity.service.ActivityDetectionService
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:30:9-130
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:30:18-127
+receiver#br.ufma.lsdi.cdal.broadcastreceivers.OnBootReceiver
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:32:9-38:20
+	android:exported
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:33:13-79
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:35:13-37:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:36:17-79
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:36:25-76
+receiver#br.ufma.lsdi.cdal.broadcastreceivers.PowerReceiver
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:39:9-46:20
+	android:exported
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:40:13-78
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:43:17-87
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:43:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:44:17-90
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:44:25-87
+receiver#br.ufma.lsdi.cdal.broadcastreceivers.ConnectivityReceiver
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:47:9-53:20
+	android:exported
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:48:13-85
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:50:13-52:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:51:17-79
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:51:25-76
+receiver#br.ufma.lsdi.cdal.broadcastreceivers.BatteryReceiver
+ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:54:9-89
+	android:name
+		ADDED from [cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:54:19-86
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:2:1-61:12 reason: br.ufma.lsdi.cdal requested WRITE_EXTERNAL_STORAGE
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:12:5-80
+MERGED from [microbroker-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\4619f6e9f050142e2a2bbf8bed84dce6\transformed\jetified-microbroker-1.1-release\AndroidManifest.xml:12:5-80
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Claudio\.gradle\caches\transforms-4\740a758f31f90a5d10e3d59ddd6a918f\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.servicelab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.servicelab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

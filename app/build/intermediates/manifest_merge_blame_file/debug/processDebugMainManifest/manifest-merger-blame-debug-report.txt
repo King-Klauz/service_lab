@@ -1,0 +1,296 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.servicelab"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:5:5-7:10
+11-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:6:9-52
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:8:5-10:9
+12-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:9:9-58
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:11:5-13:11
+13-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:12:9-60
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+14-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:14:5-15:73
+14-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:15:9-70
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:16:5-17:54
+15-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:17:9-51
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:18:5-20:31
+16-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:19:9-57
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:21:5-22:64
+17-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:22:9-61
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:23:5-25:11
+18-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:24:9-65
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+19-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:26:5-94
+19-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:26:22-91
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:27:5-29:10
+20-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:28:9-63
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:30:5-85
+21-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:30:22-82
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:11:5-76
+22-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:11:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:12:5-79
+23-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:12:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:16:5-68
+24-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:16:22-65
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:17:5-75
+25-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:17:22-72
+26    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+26-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:18:5-82
+26-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:18:22-79
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:19:5-81
+27-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:19:22-78
+28    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+28-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:20:5-79
+28-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:20:22-76
+29    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS" />
+29-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:16:5-76
+29-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:16:22-73
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:19:5-81
+30-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:19:22-78
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:21:5-77
+31-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:21:22-74
+32    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+32-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:23:5-94
+32-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:23:22-91
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+34
+35    <permission
+35-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+36        android:name="com.example.servicelab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.example.servicelab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:31:5-59:19
+42        android:allowBackup="true"
+42-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:32:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.13.0] C:\Users\Claudio\.gradle\caches\transforms-4\1eed4dfb55109a9bb77e598a3717c25b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:33:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:34:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:35:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:36:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:37:9-54
+51        android:supportsRtl="true"
+51-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:38:9-35
+52        android:testOnly="true"
+53        android:theme="@style/Theme.ServiceLAB" >
+53-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:39:9-48
+54        <activity
+54-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:42:9-50:20
+55            android:name="com.example.servicelab.MainActivity"
+55-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:43:13-41
+56            android:exported="true" >
+56-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:44:13-36
+57            <intent-filter>
+57-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:45:13-49:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:46:17-69
+58-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:46:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:48:17-77
+60-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:48:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <service
+64-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:52:9-55:56
+65            android:name="com.example.servicelab.DataExchangeService"
+65-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:53:13-48
+66            android:exported="false"
+66-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:54:13-37
+67            android:foregroundServiceType="location" />
+67-->C:\Users\Claudio\Desktop\TCC\dt-environment-data-exchange\app\src\main\AndroidManifest.xml:55:13-53
+68        <service android:name="org.eclipse.paho.android.service.MqttService" />
+68-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:23:9-80
+68-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:23:18-77
+69        <service android:name="br.ufma.lsdi.cddl.services.QoCEvaluatorService" />
+69-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:24:9-82
+69-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:24:18-79
+70        <service android:name="br.ufma.lsdi.cddl.services.LocalDirectoryService" />
+70-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:25:9-84
+70-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:25:18-81
+71        <service android:name="br.ufma.lsdi.cddl.services.CommandService" />
+71-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:26:9-77
+71-->[cddl-1.1-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\842fb2863b59c1ed8cf9f997a919dd99\transformed\jetified-cddl-1.1-release\AndroidManifest.xml:26:18-74
+72        <service android:name="br.ufma.lsdi.cdal.services.S2PAService" />
+72-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:26:9-74
+72-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:26:18-71
+73        <service android:name="br.ufma.lsdi.cdal.services.LocationService" />
+73-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:27:9-78
+73-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:27:18-75
+74        <service android:name="br.ufma.lsdi.cdal.services.AdaptationService" />
+74-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:28:9-80
+74-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:28:18-77
+75        <service android:name="br.ufma.lsdi.cdal.s2pa.technologies.internal.sensors.activity.service.ActivityTransitionService" />
+75-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:29:9-131
+75-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:29:18-128
+76        <service android:name="br.ufma.lsdi.cdal.s2pa.technologies.internal.sensors.activity.service.ActivityDetectionService" />
+76-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:30:9-130
+76-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:30:18-127
+77
+78        <receiver
+78-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:32:9-38:20
+79            android:name="br.ufma.lsdi.cdal.broadcastreceivers.OnBootReceiver"
+79-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:33:13-79
+80            android:exported="true" >
+80-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:34:13-36
+81            <intent-filter>
+81-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:35:13-37:29
+82                <action android:name="android.intent.action.BOOT_COMPLETED" />
+82-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:36:17-79
+82-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:36:25-76
+83            </intent-filter>
+84        </receiver>
+85        <receiver
+85-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:39:9-46:20
+86            android:name="br.ufma.lsdi.cdal.broadcastreceivers.PowerReceiver"
+86-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:40:13-78
+87            android:exported="true" >
+87-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:41:13-36
+88            <intent-filter>
+88-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:42:13-45:29
+89                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+89-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:43:17-87
+89-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:43:25-84
+90                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+90-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:44:17-90
+90-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:44:25-87
+91            </intent-filter>
+92        </receiver>
+93        <receiver
+93-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:47:9-53:20
+94            android:name="br.ufma.lsdi.cdal.broadcastreceivers.ConnectivityReceiver"
+94-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:48:13-85
+95            android:exported="true" >
+95-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:49:13-36
+96            <intent-filter>
+96-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:50:13-52:29
+97                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+97-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:51:17-79
+97-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:51:25-76
+98            </intent-filter>
+99        </receiver>
+100        <receiver android:name="br.ufma.lsdi.cdal.broadcastreceivers.BatteryReceiver" />
+100-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:54:9-89
+100-->[cdal-1.0.4-release.aar] C:\Users\Claudio\.gradle\caches\transforms-4\cc56479ef46494a758fb548b10f2798c\transformed\jetified-cdal-1.0.4-release\AndroidManifest.xml:54:19-86
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Claudio\.gradle\caches\transforms-4\64dbf9a146a65bfd2dd2e109037e6648\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Claudio\.gradle\caches\transforms-4\3612375adc1f494fc9b4bde2ad31adbc\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.servicelab.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Claudio\.gradle\caches\transforms-4\d671daf2f87af4d2216f139fcaa4d6f4\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Claudio\.gradle\caches\transforms-4\0a34999b6473500e3466330197102258\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <receiver
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+127            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+128            android:directBootAware="false"
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+129            android:enabled="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+130            android:exported="true"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+131            android:permission="android.permission.DUMP" >
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+133                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+136                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+139                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+142                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Claudio\.gradle\caches\transforms-4\fba080f4b4708845c1c175999dd8e235\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+143            </intent-filter>
+144        </receiver>
+145    </application>
+146
+147</manifest>
