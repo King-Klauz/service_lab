@@ -68,7 +68,24 @@ public class DataExchangeService extends Service {
     // Instanciação explícita no MainLooper para evitar depreciação de API
     private final Handler connectionCheckHandler = new Handler(Looper.getMainLooper());
 
+    // MODO CORRIGIDO DO WATCHDOG
     private final Runnable connectionCheckRunnable = new Runnable() {
+        @Override
+        public void run() {
+            if (!isConnected) {
+                Log.w(TAG, "Watchdog: Reforçando busca pelo sensor HMSoft...");
+
+                if (cddl != null) {
+                    cddl.startSensor("HMSoft");
+
+                }
+
+                connectionCheckHandler.postDelayed(this, RECONNECT_INTERVAL);
+            }
+        }
+    };
+
+    /*private final Runnable connectionCheckRunnable = new Runnable() {
         @Override
         public void run() {
             if (!isConnected) {
@@ -92,7 +109,7 @@ public class DataExchangeService extends Service {
                 connectionCheckHandler.postDelayed(this, RECONNECT_INTERVAL);
             }
         }
-    };
+    };*/
 
     @RequiresPermission(Manifest.permission.POST_NOTIFICATIONS)
     @Override
